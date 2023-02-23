@@ -14,7 +14,7 @@ class App extends React.Component {
     e.preventDefault();
     axios({
       method: "POST",
-      url:"http://localhost:3002/send",
+      url:"http://localhost:3000/send",
       data:  this.state
     }).then((response)=>{
       if (response.data.status === 'success') {

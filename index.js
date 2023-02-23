@@ -1,17 +1,17 @@
-var express = require('express');
-var router = express.Router();
-var nodemailer = require('nodemailer');
-var cors = require('cors');
+const express = require('express');
+const router = express.Router();
+const nodemailer = require('nodemailer');
+const cors = require('cors');
 const creds = require('./config');
-var transport = {
-    host: 'imap.mail.yahoo.com', // Don’t forget to replace with the SMTP host of your provider
-    port: 993,
+const transport = {
+    host: 'imap.mail.yahoo.com',
+    port: 587,
     auth: {
     user: creds.USER,
     pass: creds.PASS
   }
 }
-var transporter = nodemailer.createTransport(transport)
+const transporter = nodemailer.createTransport(transport)
 transporter.verify((error, success) => {
   if (error) {
     console.log(error);
@@ -20,11 +20,11 @@ transporter.verify((error, success) => {
   }
 });
 router.post('/send', (req, res, next) => {
-  var name = req.body.name
-  var email = req.body.email
-  var message = req.body.message
-  var content = `name: ${name} \n email: ${email} \n message: ${message} `
-  var mail = {
+  const name = req.body.name
+  const email = req.body.email
+  const message = req.body.message
+  const content = `name: ${name} \n email: ${email} \n message: ${message} `
+  const mail = {
     from: name,
     to: 'calcagno_mark@yahoo.com', 
     subject: 'New Message from Contact Form',
@@ -46,4 +46,4 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use('/', router)
-app.listen(3002)
+app.listen(3000)
