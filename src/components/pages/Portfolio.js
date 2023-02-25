@@ -3,22 +3,27 @@ import React from 'react';
 export default function Portfolio() {
   return (
     <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <h2>Portfolio</h2>
+        <section>
+            <h4 id="my-work">My Work</h4>
+            <figure className="figure">
+                <a href="https://so-bad-its-good.herokuapp.com/">
+                    <img src="./assets/images/SoBadItsGood.png" alt="A project I made with 3 other bootcamp students" className="work-images-recent"/>
+                </a>
+                <div>
+                    <img src="./assets/images/screenshot.png" alt="a website I repaired from my first homework assignment advertising Search Engine Optimization" className="work-images"/>
+                </div>
+                <div>
+                    <img src="./assets/images/CardsAgainstApathyScreenshot.png" alt="A project I made with 3 other bootcamp students" className="work-images"/>
+                </div>
+                <div>
+                    <img src="./assets/images/FutureProjects3.png" alt="a placeholder until future projects are completed" className="work-images"/>
+                </div>
+                <div>
+                    <img src="./assets/images/FutureProjects4.png" alt="a placeholder until future projects are completed" className="work-images"/>
+                </div>
+            </figure>
+        </section>
     </div>
   );
 }
