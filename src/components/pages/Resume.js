@@ -39,7 +39,7 @@ export default function Resume() {
                 <a href="https://so-bad-its-good.herokuapp.com/">Movie Review Website</a>
               </li>
               <li>
-                <a href="https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/ ">Poker themed workout application</a>
+                <a href="https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/">Poker themed workout application</a>
               </li>
               <li>Social Network API creation</li>
               <li>Database creation</li>
