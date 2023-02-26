@@ -4,6 +4,8 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import backgroundImage from "../assets/images/stargazers.jpg"
+
 
 function Header() {
   const [currentPage, setCurrentPage] = useState('About');
