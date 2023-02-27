@@ -31,7 +31,7 @@ class App extends React.Component {
   render() {
     return(
       <div className="App">
-        <form id="contact-form">
+        <form id="contact-form" className='info-container'>
           <div className="form-group">
               <label htmlFor="name">Name</label>
               <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />

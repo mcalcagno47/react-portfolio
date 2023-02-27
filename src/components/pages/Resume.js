@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div className="infoDiv">
+    <div className="infoDiv info-container">
       <h2>Resume</h2>
 
       <h4>Education Experience and Certification Areas</h4>

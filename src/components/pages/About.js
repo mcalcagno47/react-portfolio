@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div id="infoDiv">
+    <div id="infoDiv" className='info-container'>
       <h2>About Me</h2>
       <p>
           After teaching math in the Chicago Public School system for 7 years, I discovered a love and aptitude for coding languages, specifically the logic of the back-end.  After researching assorted avenues for learning, I 
