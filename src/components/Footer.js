@@ -7,7 +7,7 @@ function Footer() {
                 <p>                
                     <a href="https://github.com/mcalcagno47">GitHub</a>
                     <a href="https://www.linkedin.com/in/mark-calcagno-b96214a2/">LinkedIn</a>
-                    <a href="mailto:mcalcagn@gmail.com">Gmail</a>
+                    <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=mcalcagn@gmail.com">Gmail</a>
                 </p>
             </div>
         </footer>
