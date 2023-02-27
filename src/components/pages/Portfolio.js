@@ -12,16 +12,16 @@ export default function Portfolio() {
             <h4 id="my-work">My Work</h4>
             <figure className="figure">
                 <a href="https://so-bad-its-good.herokuapp.com/">
-                    <img src={project2Image} alt="movie review site that allows users to rate film quality and fun factor" className="portfolioImage"/>
+                    <img src={project2Image} alt="movie review site that allows users to rate film quality and fun factor" className="portfolio-image"/>
                 </a>
                 <a href="https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/">
-                    <img src={project1Image} alt="workout app using cards and poker chips" className="portfolioImage"/>
+                    <img src={project1Image} alt="workout app using cards and poker chips" className="portfolio-image"/>
                 </a>
                 <a href="https://calcagno-tech-blog.herokuapp.com/">
-                    <img src={homework1Image} alt="tech-blog" className="portfolioImage"/>
+                    <img src={homework1Image} alt="tech-blog" className="portfolio-image"/>
                 </a>
                 <a href="https://note-taker-calcagno.herokuapp.com/">
-                    <img src={homework2Image} alt="note-taker" className="portfolioImage"/>
+                    <img src={homework2Image} alt="note-taker" className="portfolio-image"/>
                 </a>
             </figure>
         </section>
