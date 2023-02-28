@@ -29,6 +29,10 @@ body {
     background-size: cover;
 }
 
+ul.header {
+    padding: 0;
+}
+
 h1 {
     font-size: 40pt;
     color: white;
@@ -37,10 +41,13 @@ h1 {
 }
 
 .my-name {
-    justify-content: left;
+    text-align: left;
     list-style: none;
     margin-left: 1rem;
+    margin-right: 1rem;
     padding-top: 35px;
+    padding-left: 36px;
+    padding-right: 36px;
 }
 
 .nav {
@@ -50,7 +57,6 @@ h1 {
 
 .nav-tabs .nav-link {
     border-left: 1pt solid white;
-    /* border-right: 1pt solid white; */
     border-radius: 0%;
 }
 
@@ -81,7 +87,6 @@ h1 {
 .nav-link:hover {
     background-color: rgb(140, 156, 151);
     border-left: 1pt solid white;
-    /* border-right: 1pt solid white; */
     color: white;
 }
 
@@ -91,8 +96,8 @@ h1 {
 
 .info-container {
     background-color: rgba(19, 104, 156, 0.638);
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 60px;
+    margin-right: 60px;
     padding: 1rem;
     border-radius: 5px;
     color: white;
@@ -108,28 +113,57 @@ h1 {
     transition: 0.1s;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .portfolio-image {
     border: 4px solid var(--yellow);
     text-align: center;
     position: relative;
     margin: 20px;
     transition: all .1s ease-in-out;
-    max-width: 323px;
+    width: 300px;
+    height: 200px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    object-fit: cover;
+    object-position: left top;
+}
+
+.portfolio-image-Proj {
+    border: 4px solid var(--yellow);
+    text-align: center;
+    position: relative;
+    margin: 20px;
+    transition: all .1s ease-in-out;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.portfolio-image:hover {
+    filter: grayscale(80%);
+    opacity: 0.8;
+}
+
+.portfolio-image-Proj:hover {
+    filter: grayscale(80%);
+    opacity: 0.8;
 }
 
 #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
+    padding-bottom: 6rem;    /* Footer height */
   }
 
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
+    height: 1.5rem;            /* Footer height */
     text-align: center;
     margin-bottom: 80px;
 }
@@ -144,4 +178,48 @@ h1 {
 .footer img:hover {
     transition: 0.2s;
     opacity: 1;
+}
+
+@media screen and (min-width: 1500px) {
+    .portfolio-image-Proj {
+        width: 600px;
+        height: 400px;
+    }
+
+    .portfolio-image {
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    main,
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-tabs .nav-link {
+        border: 1px solid white;
+    }
+
+    .my-name {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    h1 {
+        font-size: 20pt;
+    }
+
+    .portfolio-image-Proj {
+        width: 150px;
+    }
+
+    .portfolio-image {
+        width: 150px;
+    }
+
 }

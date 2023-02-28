@@ -10,17 +10,17 @@ export default function Portfolio() {
       <h2>Portfolio</h2>
         <section>
             <h4 id="my-work">My Work</h4>
-            <figure className="figure">
-                <a href="https://so-bad-its-good.herokuapp.com/">
-                    <img src={project2Image} alt="movie review site that allows users to rate film quality and fun factor" className="portfolio-image"/>
+            <figure className="gallery">
+                <a href="https://so-bad-its-good.herokuapp.com/" className="portfolio-link">
+                    <img src={project2Image} alt="movie review site that allows users to rate film quality and fun factor" className="portfolio-image-Proj"/>
                 </a>
-                <a href="https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/">
-                    <img src={project1Image} alt="workout app using cards and poker chips" className="portfolio-image"/>
+                <a href="https://the-fighting-mongooses-official.github.io/Cards-Against-Apathy/" className="portfolio-link">
+                    <img src={project1Image} alt="workout app using cards and poker chips" className="portfolio-image-Proj"/>
                 </a>
-                <a href="https://calcagno-tech-blog.herokuapp.com/">
+                <a href="https://calcagno-tech-blog.herokuapp.com/" className="portfolio-link">
                     <img src={homework1Image} alt="tech-blog" className="portfolio-image"/>
                 </a>
-                <a href="https://note-taker-calcagno.herokuapp.com/">
+                <a href="https://note-taker-calcagno.herokuapp.com/" className="portfolio-link">
                     <img src={homework2Image} alt="note-taker" className="portfolio-image"/>
                 </a>
             </figure>
