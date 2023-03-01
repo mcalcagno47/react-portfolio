@@ -5,6 +5,17 @@ export default function Resume() {
     <div className="infoDiv info-container">
       <h2>Resume</h2>
 
+      <a
+          className="button is-primary"
+          href={process.env.PUBLIC_URL + "/mark-calcagno-resume.pdf"}
+          target="_blank" rel="noreferrer"
+        >
+          <span className="icon">
+            <i className="fas fa-download"></i>
+          </span>
+          <span>Download My Resume</span>
+        </a>
+
       <h4>Education Experience and Certification Areas</h4>
         <ul>
           <li>Northwestern Bootcamp: attended from September 2022 to March 2023</li>
