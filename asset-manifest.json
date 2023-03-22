@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.3e88c481.css",
-    "main.js": "/react-portfolio/static/js/main.aa9adec5.js",
+    "main.js": "/react-portfolio/static/js/main.c72713ef.js",
     "static/media/CardsAgainstApathyScreenshot.png": "/react-portfolio/static/media/CardsAgainstApathyScreenshot.b6a7034249932470528f.png",
     "static/media/SoBadItsGood.png": "/react-portfolio/static/media/SoBadItsGood.53a1bc58398c1931858c.png",
+    "static/media/TimeWellSpent.png": "/react-portfolio/static/media/TimeWellSpent.aa54f84349d052cd73eb.png",
     "static/media/techblog.png": "/react-portfolio/static/media/techblog.0f6abfc0b9cfa76ca1d3.png",
     "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.a680cb8ad2b88be03d17.png",
     "static/media/stargazers.jpg": "/react-portfolio/static/media/stargazers.fd93138186f68ae83581.jpg",
     "static/media/notetaker.png": "/react-portfolio/static/media/notetaker.761114dac48ad2154f9d.png",
     "index.html": "/react-portfolio/index.html",
     "main.3e88c481.css.map": "/react-portfolio/static/css/main.3e88c481.css.map",
-    "main.aa9adec5.js.map": "/react-portfolio/static/js/main.aa9adec5.js.map"
+    "main.c72713ef.js.map": "/react-portfolio/static/js/main.c72713ef.js.map"
   },
   "entrypoints": [
     "static/css/main.3e88c481.css",
-    "static/js/main.aa9adec5.js"
+    "static/js/main.c72713ef.js"
   ]
 }
