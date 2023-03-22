@@ -3,6 +3,7 @@ const router = express.Router();
 const nodemailer = require('nodemailer');
 const cors = require('cors');
 const creds = require('./config');
+
 const transport = {
     host: 'imap.mail.yahoo.com',
     port: 587,
